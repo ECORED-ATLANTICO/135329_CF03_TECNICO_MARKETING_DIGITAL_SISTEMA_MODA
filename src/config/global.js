@@ -153,7 +153,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/124108_CF03_DU.pdf',
+        download: 'downloads/124108_CF03_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -199,57 +199,57 @@ export default {
   referencias: [
     {
       referencia:
-        'Bello, E. (2021, 18 de agosto). <em>Qué es la analítica web, para qué sirve y principales herramientas</em>. IEBS Business School.',
+        'Bello, E. (2021, 18 de agosto). Qué es la analítica web, para qué sirve y principales herramientas. IEBS Business School.',
       link:
         'https://www.iebschool.com/hub/herramientas-analisis-web-analitica-usabilidad/',
     },
     {
       referencia:
-        'Cibrián, I. B. (2019). <em>Marketing digital. Mide, analiza y mejora</em>. ESIC.',
+        'Cibrián, I. B. (2019). Marketing digital. Mide, analiza y mejora. ESIC.',
       link: '',
     },
     {
       referencia:
-        'Departamento Administrativo Nacional de Estadística. (s.f.). <em>Guía para diseño, construcción e interpretación de indicadores</em>. DANE.',
+        'Departamento Administrativo Nacional de Estadística. (s.f.). Guía para diseño, construcción e interpretación de indicadores. DANE.',
       link:
         'https://www.dane.gov.co/files/planificacion/fortalecimiento/cuadernillo/Guia_construccion_interpretacion_indicadores.pdf',
     },
     {
       referencia:
-        'Gómez, S., & Instituto de Marketing Ágil. (2017, 22 de noviembre). <em>Qué es la analítica web y para qué sirve</em> [Video]. YouTube.',
+        'Gómez, S., & Instituto de Marketing Ágil. (2017, 22 de noviembre). Qué es la analítica web y para qué sirve [Video]. YouTube.',
       link: 'https://www.youtube.com/watch?v=W1q_SyJPfdg',
     },
     {
       referencia:
-        'GraciAds Marketing. (2021, 11 de enero). <em>El comportamiento del consumidor en las redes sociales</em>. GraciAds.',
+        'GraciAds Marketing. (2021, 11 de enero). El comportamiento del consumidor en las redes sociales. GraciAds.',
       link:
         'https://graciads.com/comportamiento-del-consumidor-en-redes-sociales/',
     },
     {
       referencia:
-        'IEBS Digital School. (2018, 11 de septiembre). <em>Webinar: Cómo definir e interpretar métricas y KPIs en analítica web de IEBS</em> [Video]. YouTube.',
+        'IEBS Digital School. (2018, 11 de septiembre). Webinar: Cómo definir e interpretar métricas y KPIs en analítica web de IEBS [Video]. YouTube.',
       link: 'https://www.youtube.com/watch?v=-_8tNwzyCi8',
     },
     {
       referencia:
-        'Maciá, F. y Santoja, M. (2017). <em>Marketing en redes sociales</em>. Anaya.',
+        'Maciá, F. y Santoja, M. (2017). Marketing en redes sociales. Anaya.',
       link: '',
     },
     {
       referencia:
-        'Mejía Llano, J. C. (2025, 22 de octubre). <em>Indicadores de redes sociales: principales KPIs y métricas de social media</em>. Juan Carlos Mejía Llano.',
+        'Mejía Llano, J. C. (2025, 22 de octubre). Indicadores de redes sociales: principales KPIs y métricas de social media. Juan Carlos Mejía Llano.',
       link:
         'https://www.juancmejia.com/redes-sociales/kpis-de-redes-sociales-guia-con-principales-metricas-e-indicadores-de-social-media/',
     },
     {
       referencia:
-        'Núñez, V. (2013, 6 de agosto). <em>Cómo hacer un informe de resultados en redes sociales</em> [Plantillas]. Vilma Núñez.',
+        'Núñez, V. (2013, 6 de agosto). Cómo hacer un informe de resultados en redes sociales [Plantillas]. Vilma Núñez.',
       link:
         'https://vilmanunez.com/como-hacer-un-informe-de-redes-sociales-incluye-plantillas/',
     },
     {
       referencia:
-        'RD Station. (s.f.). <em>¿Qué son las redes sociales? Guía completa + ejemplos</em>.',
+        'RD Station. (s.f.). ¿Qué son las redes sociales? Guía completa + ejemplos.',
       link: 'https://www.rdstation.com/es/redes%20sociales/',
     },
   ],
@@ -357,12 +357,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -372,7 +372,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -380,7 +380,7 @@ export default {
   ],
   creditosAdicionales: {
     imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+      'Fotografías y vectores tomados de <a href="https://www.magnific.com/es" target="_blank">www.magnific.com/es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
