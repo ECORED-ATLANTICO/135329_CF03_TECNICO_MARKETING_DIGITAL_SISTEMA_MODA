@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
-    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
+    Name: 'Analítica digital para redes sociales',
+    Description:
+      'Dentro del <em>marketing</em> digital, las redes sociales tienen la gran habilidad de permitir su medición, lo cual constituye un insumo demasiado valioso para direccionar las estrategias digitales que desarrollan las empresas de acuerdo con los objetivos y metas propuestas. De esta manera, en el presente componente de formación hace una exploración conceptual de la analítica digital desde las redes sociales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,40 +36,95 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Analítica de datos para redes sociales',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Componentes de la analítica digital',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Uso de los datos obtenidos',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Contenidos, medición y análisis',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: '¿Qué se debe medir?',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Definición de objetivos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'KPI (<em>Key Performance Indicator</em>)',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Proceso de medición',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Análisis de Información',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: '¿Qué se debe medir?',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Análisis de la competencia',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Análisis cualitativo',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Comportamiento del consumidor (personalidades de compra)',
+            hash: 't_3_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo:
+          'Estructuración e interpretación de indicadores para la preparación de reportes',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Tema 5',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Características de un reporte de resultados',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Tipos de reportes',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -93,7 +153,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/124108_CF03_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -109,14 +169,88 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Analítica web',
+      significado:
+        'Entender e interpretar datos del entorno digital para conocer resultados que permitan una acertada toma de decisiones.',
+    },
+    {
+      termino: '<em>Software</em>',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: '<em>Buyer persona</em>',
+      significado: 'Representación de un modelo de cliente.',
+    },
+    {
+      termino: '<em>KPI (Key Performance Indicator)</em>',
+      significado: 'Indicador clave de desempeño.',
+    },
+    {
+      termino: 'Medida',
+      significado: 'Cuantificación de datos específica.',
+    },
+    {
+      termino: 'Métricas',
+      significado:
+        'Valores numéricos en los que se presenta una campaña o estrategia.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Bello, E. (2021, 18 de agosto). <em>Qué es la analítica web, para qué sirve y principales herramientas</em>. IEBS Business School.',
+      link:
+        'https://www.iebschool.com/hub/herramientas-analisis-web-analitica-usabilidad/',
+    },
+    {
+      referencia:
+        'Cibrián, I. B. (2019). <em>Marketing digital. Mide, analiza y mejora</em>. ESIC.',
+      link: '',
+    },
+    {
+      referencia:
+        'Departamento Administrativo Nacional de Estadística. (s.f.). <em>Guía para diseño, construcción e interpretación de indicadores</em>. DANE.',
+      link:
+        'https://www.dane.gov.co/files/planificacion/fortalecimiento/cuadernillo/Guia_construccion_interpretacion_indicadores.pdf',
+    },
+    {
+      referencia:
+        'Gómez, S., & Instituto de Marketing Ágil. (2017, 22 de noviembre). <em>Qué es la analítica web y para qué sirve</em> [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=W1q_SyJPfdg',
+    },
+    {
+      referencia:
+        'GraciAds Marketing. (2021, 11 de enero). <em>El comportamiento del consumidor en las redes sociales</em>. GraciAds.',
+      link:
+        'https://graciads.com/comportamiento-del-consumidor-en-redes-sociales/',
+    },
+    {
+      referencia:
+        'IEBS Digital School. (2018, 11 de septiembre). <em>Webinar: Cómo definir e interpretar métricas y KPIs en analítica web de IEBS</em> [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=-_8tNwzyCi8',
+    },
+    {
+      referencia:
+        'Maciá, F. y Santoja, M. (2017). <em>Marketing en redes sociales</em>. Anaya.',
+      link: '',
+    },
+    {
+      referencia:
+        'Mejía Llano, J. C. (2025, 22 de octubre). <em>Indicadores de redes sociales: principales KPIs y métricas de social media</em>. Juan Carlos Mejía Llano.',
+      link:
+        'https://www.juancmejia.com/redes-sociales/kpis-de-redes-sociales-guia-con-principales-metricas-e-indicadores-de-social-media/',
+    },
+    {
+      referencia:
+        'Núñez, V. (2013, 6 de agosto). <em>Cómo hacer un informe de resultados en redes sociales</em> [Plantillas]. Vilma Núñez.',
+      link:
+        'https://vilmanunez.com/como-hacer-un-informe-de-redes-sociales-incluye-plantillas/',
+    },
+    {
+      referencia:
+        'RD Station. (s.f.). <em>¿Qué son las redes sociales? Guía completa + ejemplos</em>.',
+      link: 'https://www.rdstation.com/es/redes%20sociales/',
     },
   ],
   creditos: [
@@ -126,11 +260,11 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Miguel de Jesús Paredes Maestre ',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -140,19 +274,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Maria Camila Álvarez',
+          cargo: 'Contratista diseño curricular',
+          centro:
+            'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Liliana Ceballos',
+          cargo: 'Contratista diseño curricular',
+          centro:
+            'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Cristian Metaute Medina',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Revisor metodológico y pedagógico',
+          centro: 'Centro de Diseño Y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Uriel Darío González Montoya',
+          cargo: 'Acompañamiento pedagógico',
+          centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
       ],
     },
@@ -160,24 +307,48 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Jesus Antonio Vecino Valero',
+          cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabio Fonseca Arguelles',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Alexander Rafael Acosta Bedoya',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Angela Maldonado Jaime',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Adriana Marcela Suarez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy Maria Ruiz Torres ',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -196,12 +367,12 @@ export default {
         },
         {
           nombre: 'Jonathan Adié Villafañe',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

@@ -2,89 +2,89 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
+  
       #Actividad                
-      <ActividadController :cuestionario="cuestionario"/>
+        <Actividad :cuestionario="cuestionario"/>
   
   </template>
 
 <script>
-import ActividadController from '@ecored-sena/boulder-kit/plugin/components/actividad/ActividadController.vue'
-
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
   components: {
-    ActividadController,
+    Actividad,
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Verificación conceptual de analítica digital',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> verificar la comprensión del aprendiz sobre la analítica digital aplicada a redes sociales mediante la resolución de preguntas de selección múltiple, a partir de la identificación de conceptos clave desarrollados en el componente formativo relacionados con medición, análisis de datos, definición de objetivos, indicadores de desempeño y procesos de medición utilizados en estrategias de <em>marketing</em> digital.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué finalidad tiene la analítica digital en redes sociales?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto:
+                'Transformar datos en información útil para tomar decisiones estratégicas.',
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+                'Eliminar procesos de medición dentro del marketing digital actual.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Sustituir completamente la investigación de mercados tradicional.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Reducir la interacción entre usuarios y marcas digitales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Cuál es el primer componente de la analítica digital?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Reporting de resultados mediante gráficos especializados.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Medición de datos generados por usuarios digitales.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto:
+                'Implementación de campañas publicitarias en redes sociales.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Diseño de estrategias comerciales para nuevos mercados.',
               esCorrecta: false,
             },
           ],
@@ -93,30 +93,33 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué permite realizar el análisis de los datos obtenidos?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'Diseñar campañas sin utilizar información de los usuarios.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Eliminar indicadores utilizados para evaluar resultados digitales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'Comprender información segmentada según criterios previamente establecidos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'Sustituir completamente la medición dentro del marketing digital.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -125,29 +128,33 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué caracteriza principalmente el proceso de reporting digital?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto:
+                'Reducir información utilizada para apoyar decisiones organizacionales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Sustituir gráficos por interpretaciones intuitivas del analista digital.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto:
+                'Eliminar evidencias sobre resultados obtenidos en redes sociales.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto:
+                'Presentar resultados mediante gráficos para apoyar decisiones estratégicas.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -155,30 +162,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué beneficio ofrece utilizar datos provenientes de redes sociales?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Facilitar decisiones fundamentadas sobre comportamientos y oportunidades del mercado.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Eliminar análisis relacionados con hábitos del consumidor digital.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto:
+                'Sustituir procesos estratégicos mediante decisiones exclusivamente intuitivas.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Reducir posibilidades de optimización en campañas digitales actuales.',
               esCorrecta: false,
             },
           ],
@@ -188,28 +198,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué permiten identificar los datos analizados correctamente?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto:
+                'Procesos administrativos sin relación con estrategias digitales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Oportunidades de mejora para optimizar acciones de marketing digital.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto:
+                'Únicamente costos asociados al funcionamiento de redes sociales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'Exclusivamente información financiera de las organizaciones participantes.',
               esCorrecta: false,
             },
           ],
@@ -219,28 +233,32 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Por qué resulta importante medir acciones en redes sociales?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto:
+                'Eliminar seguimiento realizado sobre campañas de comunicación digital.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'Sustituir indicadores mediante apreciaciones subjetivas del administrador.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Obtener información objetiva para mejorar estrategias digitales continuamente.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto:
+                'Reducir utilización de herramientas de analítica dentro organizaciones.',
               esCorrecta: false,
             },
           ],
@@ -249,30 +267,33 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué relación existe entre medición y toma de decisiones?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'La medición reemplaza completamente el análisis estratégico empresarial.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La medición elimina necesidad de interpretar resultados obtenidos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'La medición reduce importancia del comportamiento del consumidor digital.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'La medición proporciona evidencia para decidir acciones estratégicas acertadas.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -281,19 +302,33 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué propósito tiene interpretar hábitos del consumidor digital?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Comprender comportamientos para orientar estrategias de marketing efectivas.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Eliminar segmentación utilizada durante campañas digitales empresariales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir investigación comercial mediante observaciones intuitivas permanentes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reducir oportunidades de optimización en medios digitales actuales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +337,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué resultado genera analizar correctamente datos obtenidos digitalmente?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Disminuir precisión durante procesos estratégicos de comunicación digital.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Fortalecer decisiones mediante información confiable y oportunamente interpretada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir completamente procesos analíticos desarrollados por especialistas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Eliminar seguimiento realizado sobre resultados de campañas digitales.',
               esCorrecta: false,
             },
           ],
@@ -323,19 +372,30 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué debe definirse antes de medir resultados en redes sociales?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'El presupuesto destinado a campañas publicitarias digitales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Los objetivos que orientarán el proceso de medición.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El número de seguidores de cada red social.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El diseño gráfico de las publicaciones institucionales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -344,18 +404,32 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué característica corresponde al método SMART para objetivos?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Establecer objetivos específicos, medibles y alcanzables.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Formular metas sin indicadores para facilitar la evaluación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir los indicadores por apreciaciones del administrador digital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Definir objetivos únicamente según cantidad de seguidores obtenidos.',
               esCorrecta: false,
             },
           ],
@@ -365,18 +439,32 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué representan las macroconversiones dentro del marketing digital?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Interacciones sin impacto sobre resultados empresariales esperados.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Acciones que generan resultados relevantes para la organización.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Publicaciones realizadas periódicamente en diferentes redes sociales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Indicadores relacionados únicamente con el crecimiento de seguidores.',
               esCorrecta: false,
             },
           ],
@@ -386,19 +474,33 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué permiten evaluar los indicadores clave de desempeño KPI?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'El diseño gráfico utilizado durante campañas digitales institucionales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'La calidad estética de las publicaciones realizadas diariamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El desempeño de objetivos y estrategias implementadas digitalmente.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'El número total de plataformas utilizadas por la organización.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -406,19 +508,192 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué mide el KPI tamaño de la comunidad digital?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'La cantidad de seguidores registrados en la red social.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El número de campañas desarrolladas durante un semestre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La cantidad de clics realizados sobre enlaces publicados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El retorno económico obtenido por cada publicación realizada.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué refleja el porcentaje de engagement en redes sociales?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El costo promedio invertido por adquisición de clientes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El nivel de interacción generado por los usuarios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'El tiempo utilizado para publicar contenidos digitales estratégicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La cantidad de publicaciones realizadas durante un periodo determinado.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué expresa el indicador CTR en analítica digital?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El porcentaje de clics sobre enlaces publicados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'El costo promedio generado por cada nuevo cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La cantidad de seguidores alcanzados mensualmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El retorno financiero obtenido mediante campañas digitales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué mide el indicador ROI dentro campañas digitales?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La cantidad de publicaciones compartidas por los usuarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El retorno de la inversión realizada en campañas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El número de visitas recibidas por un sitio web.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La cantidad de seguidores obtenidos durante una campaña.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué propósito tiene establecer un proceso formal de medición?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Organizar acciones para obtener resultados medibles y comparables.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Sustituir indicadores mediante criterios subjetivos del administrador.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar la necesidad de actualizar planes de medición digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reducir la importancia del análisis dentro del marketing digital.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Qué acción mantiene vigente un plan de medición digital?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Eliminar indicadores cuando aumentan los resultados organizacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Actualizar el plan según cambios del entorno digital.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir objetivos estratégicos por métricas de corto plazo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Medir únicamente el crecimiento de seguidores en redes sociales.',
               esCorrecta: false,
             },
           ],
@@ -429,78 +704,6 @@ export default {
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
     },
   }),
 }
