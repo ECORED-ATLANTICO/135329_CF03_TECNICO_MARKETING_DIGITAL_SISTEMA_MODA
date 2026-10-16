@@ -102,7 +102,7 @@
             figure
               img(src='@/assets/curso/tema1/9.png', alt='')
 
-          .tarjeta.bg-acento-botones-a20.p-3(x="16%" y="56%" numero="1")
+          .tarjeta.bg-acento-botones-a20.p-3(x="16%" y="56%" numero="A")
             .row.justify-content-center
               .col-3.col-lg-2
                 figure
@@ -111,7 +111,7 @@
                 h5 Acción
                 p Después de realizar la medición, el análisis y la presentación de resultados, llega el momento de llevar a la acción las decisiones tomadas.
 
-          .tarjeta.bg-acento-botones-a20.p-3(x="30%" y="90%" numero="2")
+          .tarjeta.bg-acento-botones-a20.p-3(x="30%" y="90%" numero="B")
             .row.justify-content-center
               .col-3.col-lg-2
                 figure
@@ -120,7 +120,7 @@
                 h5 Datos
                 p Números arrojados por la información obtenida, puede ser de visitas a la página, alcance, interacción, etc.
 
-          .tarjeta.bg-acento-botones-a20.p-3(x="44%" y="56%" numero="3")
+          .tarjeta.bg-acento-botones-a20.p-3(x="44%" y="56%" numero="C")
             .row.justify-content-center
               .col-3.col-lg-2
                 figure
@@ -129,7 +129,7 @@
                 h5 Medición
                 p Se debe enfocar en los aspectos que se desean conocer para lograr las metas propuestas.
 
-          .tarjeta.bg-acento-botones-a20.p-3(x="58%" y="90%" numero="4")
+          .tarjeta.bg-acento-botones-a20.p-3(x="58%" y="90%" numero="D")
             .row.justify-content-center
               .col-3.col-lg-2
                 figure
@@ -138,7 +138,7 @@
                 h5 Análisis
                 p Transformación de la información.
 
-          .tarjeta.bg-acento-botones-a20.p-3(x="73%" y="56%" numero="5")
+          .tarjeta.bg-acento-botones-a20.p-3(x="73%" y="56%" numero="E")
             .row.justify-content-center
               .col-3.col-lg-2
                 figure
@@ -147,7 +147,7 @@
                 h5 Información relevante
                 p Se debe poner en contexto los datos encontrados, para determinar causas del porqué y para qué interactúan los usuarios con una determinada red social o web. Esto permite observar en qué punto se debe poner el foco de atención.
 
-          .tarjeta.bg-acento-botones-a20.p-3(x="87%" y="90%" numero="6")
+          .tarjeta.bg-acento-botones-a20.p-3(x="87%" y="90%" numero="F")
             .row.justify-content-center
               .col-3.col-lg-2
                 figure

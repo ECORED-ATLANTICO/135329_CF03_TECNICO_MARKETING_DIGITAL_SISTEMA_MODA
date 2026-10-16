@@ -26,13 +26,13 @@
       .col-md-10.col-lg-6.col-xl-5.my-4.mb-5.my-lg-0
         .tarjeta-numerada.color-secundario.p-2.ps-5.h-100.bg-azul-claro.position-relative
           .tarjeta-numerada__numero
-            .h2 1
+            .h2 A
           p.mb-0.text-bold.w-75 Medir solo lo que se necesite para alcanzar los objetivos de negocio.
           img.d-none.d-md-block.img-113.position-absolute.icon-tarjeta-numerada(src="@/assets/curso/tema3/2.png", alt="")
       .col-md-10.col-lg-6.col-xl-5
         .tarjeta-numerada.color-secundario.p-2.ps-5.h-100.bg-azul-claro.position-relative
           .tarjeta-numerada__numero
-            .h2 2
+            .h2 B
           p.mb-0.text-bold.w-75 Analizar los datos sin perder el foco del porqué se hace.
           img.d-none.d-md-block.img-113.position-absolute.icon-tarjeta-numerada(src="@/assets/curso/tema3/3.png", alt="")
 
@@ -116,7 +116,7 @@
         p.mb-0 Aunque en la cotidianidad las comparaciones nunca son buenas, en el #[em marketing] digital pueden ser muy provechosas para poner los pies en la tierra y dirigirse por el camino correcto, Con respecto a esto, según Maciá y Santoja (2017) se debe hacer uso de la matriz DOFA (debilidades, oportunidades, fortalezas y amenazas) para observar estos aspectos con relación a otra marca, igualmente se deben plantear interrogantes en torno a las redes sociales utilizadas, los contenidos, la periodicidad de publicación, las interacciones de los usuarios, cantidad de seguidores, tono que usan para comunicarse, publicaciones populares, es decir, toda la información que se puede obtener al revisar la red social externamente.
 
     .p-3.bg-acento-botones-a20.rounded-3.z-2.mb-4.mb-lg-5
-      p.mb-0 Estimado aprendiz, ahora se deben contestar estas preguntas: ¿ha hecho una matriz DOFA?, ¿cómo la ha hecho? Es necesario compartir sus reflexiones en los espacios de comunicación del curso. Lo leemos.
+      p.mb-0 Estimado aprendiz, ahora se deben contestar estas preguntas: ¿ha hecho una matriz DOFA?, ¿cómo la ha hecho? Es necesario compartir sus reflexiones en los espacios de comunicación del curso.
     
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")

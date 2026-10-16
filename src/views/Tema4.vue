@@ -16,7 +16,7 @@
 
     .fullwidth-bg.fullwidth-bg--1
     .p-4.bg-acento-botones-a10.rounded-3.z-2
-      p.mb-0 Según la #[em Guía para diseño, construcción e interpretación de indicadores ](DANE, s.f.), un indicador se considera como la expresión cualitativa o cuantitativa capaz de ser observada y con la que es posible identificar comportamientos o características de una variable con relación a un tiempo determinado, encaminada a la meta fijada; para ello, el indicador debe tener simplificación, medición y comunicación. 
+      p.mb-0 Según la Guía para diseño, construcción e interpretación de indicadores (DANE, s.f.), un indicador se considera como la expresión cualitativa o cuantitativa capaz de ser observada y con la que es posible identificar comportamientos o características de una variable con relación a un tiempo determinado, encaminada a la meta fijada; para ello, el indicador debe tener simplificación, medición y comunicación. 
       
     Separador
 
@@ -38,22 +38,22 @@
               .col-md-6.mb-4.my-md-5
                 .tarjeta-numerada.color-secundario.p-3.ps-5.h-100.bg-azul-claro
                   .tarjeta-numerada__numero
-                    .h2 1
+                    .h2 A
                   p.mb-0.text-bold Información relevante y actualizada.
               .col-md-6.mb-4.my-md-5
                 .tarjeta-numerada.color-secundario.p-3.ps-5.h-100.bg-azul-claro
                   .tarjeta-numerada__numero
-                    .h2 2
+                    .h2 B
                   p.mb-0.text-bold Fácil comprensión visual.
               .col-md-6.mb-4
                 .tarjeta-numerada.color-secundario.p-3.ps-5.h-100.bg-azul-claro
                   .tarjeta-numerada__numero
-                    .h2 3
+                    .h2 C
                   p.mb-0.text-bold Conclusiones y recomendaciones.
               .col-md-6.mb-4
                 .tarjeta-numerada.color-secundario.p-3.ps-5.h-100.bg-azul-claro
                   .tarjeta-numerada__numero
-                    .h2 4
+                    .h2 D
                   p.mb-0.text-bold Automatización.
 
     

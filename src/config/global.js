@@ -205,7 +205,7 @@ export default {
     },
     {
       referencia:
-        'Cibrián, I. B. (2019). Marketing digital. Mide, analiza y mejora. ESIC.',
+        'Cibrián, I. B. (2019). <em>Marketing</em> digital. Mide, analiza y mejora. ESIC.',
       link: '',
     },
     {
@@ -216,12 +216,12 @@ export default {
     },
     {
       referencia:
-        'Gómez, S., & Instituto de Marketing Ágil. (2017, 22 de noviembre). Qué es la analítica web y para qué sirve [Video]. YouTube.',
+        'Gómez, S., & Instituto de <em>Marketing</em> Ágil. (2017, 22 de noviembre). Qué es la analítica web y para qué sirve [Video]. YouTube.',
       link: 'https://www.youtube.com/watch?v=W1q_SyJPfdg',
     },
     {
       referencia:
-        'GraciAds Marketing. (2021, 11 de enero). El comportamiento del consumidor en las redes sociales. GraciAds.',
+        'GraciAds <em>Marketing</em>. (2021, 11 de enero). El comportamiento del consumidor en las redes sociales. GraciAds.',
       link:
         'https://graciads.com/comportamiento-del-consumidor-en-redes-sociales/',
     },
@@ -232,7 +232,7 @@ export default {
     },
     {
       referencia:
-        'Maciá, F. y Santoja, M. (2017). Marketing en redes sociales. Anaya.',
+        'Maciá, F. y Santoja, M. (2017). <em>Marketing</em> en redes sociales. Anaya.',
       link: '',
     },
     {

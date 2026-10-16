@@ -40,7 +40,7 @@ export default {
             {
               id: 'b',
               texto:
-                'Eliminar procesos de medición dentro del marketing digital actual.',
+                'Eliminar procesos de medición dentro del <em>marketing</em> digital actual.',
               esCorrecta: false,
             },
             {
@@ -68,7 +68,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Reporting de resultados mediante gráficos especializados.',
+                '<em>Reporting</em> de resultados mediante gráficos especializados.',
               esCorrecta: false,
             },
             {
@@ -118,7 +118,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Sustituir completamente la medición dentro del marketing digital.',
+                'Sustituir completamente la medición dentro del <em>marketing</em> digital.',
               esCorrecta: false,
             },
           ],
@@ -128,7 +128,7 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué caracteriza principalmente el proceso de reporting digital?',
+            '¿Qué caracteriza principalmente el proceso de <em>reporting</em> digital?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -211,7 +211,7 @@ export default {
             {
               id: 'b',
               texto:
-                'Oportunidades de mejora para optimizar acciones de marketing digital.',
+                'Oportunidades de mejora para optimizar acciones de <em>marketing</em> digital.',
               esCorrecta: true,
             },
             {
@@ -309,7 +309,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Comprender comportamientos para orientar estrategias de marketing efectivas.',
+                'Comprender comportamientos para orientar estrategias de <em>marketing</em> efectivas.',
               esCorrecta: true,
             },
             {
@@ -439,7 +439,7 @@ export default {
         {
           id: 13,
           texto:
-            '¿Qué representan las macroconversiones dentro del marketing digital?',
+            '¿Qué representan las macroconversiones dentro del <em>marketing</em> digital?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -525,7 +525,7 @@ export default {
             {
               id: 'c',
               texto:
-                'La cantidad de clics realizados sobre enlaces publicados.',
+                'La cantidad de <em>clics</em> realizados sobre enlaces publicados.',
               esCorrecta: false,
             },
             {
@@ -660,7 +660,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Reducir la importancia del análisis dentro del marketing digital.',
+                'Reducir la importancia del análisis dentro del <em>marketing</em> digital.',
               esCorrecta: false,
             },
           ],
