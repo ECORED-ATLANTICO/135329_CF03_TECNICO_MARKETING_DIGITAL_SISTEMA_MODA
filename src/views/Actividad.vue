@@ -540,7 +540,8 @@ export default {
         },
         {
           id: 16,
-          texto: '¿Qué refleja el porcentaje de engagement en redes sociales?',
+          texto:
+            '¿Qué refleja el porcentaje de <em>engagement</em> en redes sociales?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
