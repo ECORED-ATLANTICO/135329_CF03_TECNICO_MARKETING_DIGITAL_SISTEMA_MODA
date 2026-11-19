@@ -28,7 +28,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 ¿Qué se debe medir?
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema2/3.png", alt="Imagen decorativa")
+    img(data-aos="fade-up")(src="@/assets/curso/tema2/3.png", alt="")
 
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
@@ -68,7 +68,7 @@
         .tarjeta.tarjeta--blanca.p-3.factores-slider__tarjeta
           .row.justify-content-center.mb-3
             .col-8
-              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/6.png' alt='Numero 1')
+              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/6.png' alt='')
           .factores-slider__title-wrapper  
             h5.factores-slider__title Específico
           p.text-center Se define como la meta concreta.
@@ -76,7 +76,7 @@
         .tarjeta.tarjeta--blanca.p-3.factores-slider__tarjeta
           .row.justify-content-center.mb-3
             .col-8
-              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/7.png' alt='Numero 2')
+              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/7.png' alt='')
           .factores-slider__title-wrapper  
             h5.factores-slider__title Medible
           p.text-center Permite cuantificar en cifras.
@@ -84,7 +84,7 @@
         .tarjeta.tarjeta--blanca.p-3.factores-slider__tarjeta
           .row.justify-content-center.mb-3
             .col-8
-              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/8.png' alt='Numero 3')
+              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/8.png' alt='')
           .factores-slider__title-wrapper  
             h5.factores-slider__title Alcanzable
           p.text-center Tiene coherencia y es posible que se lleve a cabo en la realidad.
@@ -92,7 +92,7 @@
         .tarjeta.tarjeta--blanca.p-3.factores-slider__tarjeta
           .row.justify-content-center.mb-3
             .col-8
-              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/9.png' alt='Numero 4')
+              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/9.png' alt='')
           .factores-slider__title-wrapper  
             h5.factores-slider__title Relevante
           p.text-center Mantiene alineación con la estrategia desarrollada por la empresa y tienen una razón de ser determinada.
@@ -100,12 +100,12 @@
         .tarjeta.tarjeta--blanca.p-3.factores-slider__tarjeta
           .row.justify-content-center.mb-3
             .col-8
-              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/10.png' alt='Numero 5')
+              img.factores-slider__icon.img-90(src='@/assets/curso/tema2/10.png' alt='')
           .factores-slider__title-wrapper  
             h5.factores-slider__title Acotado en el tiempo
           p.text-center Se desarrolla dentro del plazo de tiempo establecido. 
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema2/11.png", alt="Imagen decorativa")
+    img(data-aos="fade-up")(src="@/assets/curso/tema2/11.png", alt="")
 
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
@@ -113,7 +113,7 @@
           p.mb-0 Después de realizar este proceso de definición de objetivos, se deben generar conversiones, lo cual significa que son todas las acciones realizadas por los usuarios en la red social o página web. Según Maciá y Santoja (2017) se definen dos tipos de conversiones:
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5.z-2
-      .col-sm-6.col-lg-5.col-xl-4.mb-4.mb-sm-0
+      .col-sm-6.col-lg-6.col-xl-4.mb-4.mb-sm-0
         .p-4.bg-acento-contenido-a5.rounded-3.h-100
           .d-flex.align-items-center.mb-3
             .col-4
@@ -121,7 +121,7 @@
                 img.img-90(src="@/assets/curso/tema2/12.png", alt="")
             h4 Macroconversiones
           p.mb-0 Acciones que repercuten directamente en los resultados de la marca o empresa.
-      .col-sm-6.col-lg-5.col-xl-4
+      .col-sm-6.col-lg-6.col-xl-4
         .p-4.bg-primario-p10.rounded-3
           .d-flex.align-items-center.mb-3.h-100
             .col-4

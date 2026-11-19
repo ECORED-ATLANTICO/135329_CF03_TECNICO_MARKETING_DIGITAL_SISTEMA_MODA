@@ -51,7 +51,7 @@
         .crd_hover_txt.rounded-4.overflow-hidden(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/4.png", alt="Imagen de acompañamiento")
+              img(src="@/assets/curso/tema1/4.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Medición
             p.mb-0 Recolección de datos asociados de los usuarios que interactúan con la red social o sitio web.
@@ -60,7 +60,7 @@
         .crd_hover_txt.rounded-4.overflow-hidden(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/5.png", alt="Imagen de acompañamiento")
+              img(src="@/assets/curso/tema1/5.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Análisis
             p.mb-0 Estudio y comprensión de los datos encontrados, segmentados de acuerdo con los criterios definidos.
@@ -69,7 +69,7 @@
         .crd_hover_txt.rounded-4.overflow-hidden(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/6.png", alt="Imagen de acompañamiento")
+              img(src="@/assets/curso/tema1/6.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center <em>Reporting</em>
             p.mb-0 Acción de plasmar por medio de gráficos los resultados encontrados, con el fin de una toma de decisiones adecuada.
@@ -78,7 +78,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.2  Uso de los datos obtenidos
 
-    img(data-aos="fade-up")(src="@/assets/curso/tema1/7.png", alt="Imagen decorativa")
+    img(data-aos="fade-up")(src="@/assets/curso/tema1/7.png", alt="")
 
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")

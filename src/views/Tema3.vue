@@ -82,7 +82,7 @@
         .crd_hover_txt.rounded-4.overflow-hidden(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/8.png", alt="Imagen de acompañamiento")
+              img(src="@/assets/curso/tema3/8.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Segmentación
             p.mb-0 División por sectores o grupos de los datos encontrados según sus características, para encontrar información útil para la marca o empresa.
@@ -91,7 +91,7 @@
         .crd_hover_txt.rounded-4.overflow-hidden(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/9.png", alt="Imagen de acompañamiento")
+              img(src="@/assets/curso/tema3/9.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Representación de los datos
             p.mb-0 Comparación de evolución de los datos generados con respecto a una línea de tiempo, es decir, ver cómo se comportan los datos encontrados a lo largo del tiempo, con el fin de darlos a conocer en gráficos que permitan identificar cambios significativos para la toma de decisiones. Esta representación de datos permite observar desde un plano general, para ubicar hechos específicos del porqué suceden y en qué están afectando la consecución de los objetivos propuestos.
@@ -101,7 +101,7 @@
       h2 3.2 Análisis de la competencia
 
     .fullwidth-bg.fullwidth-bg--1
-    img(data-aos="fade-up")(src="@/assets/curso/tema3/10.png", alt="Imagen decorativa")
+    img(data-aos="fade-up")(src="@/assets/curso/tema3/10.png", alt="")
 
     .row.justify-content-center.z-2
       .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
@@ -141,7 +141,7 @@
         .crd_hover_txt.rounded-4.overflow-hidden(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/13.png", alt="Imagen de acompañamiento")
+              img(src="@/assets/curso/tema3/13.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Cuestionarios
             p.mb-0 Esta herramienta permite ir más allá del simple análisis de datos, conociendo qué sucede con los usuarios, al responder preguntas enfocadas a lo que se desea entender.
@@ -150,7 +150,7 @@
         .crd_hover_txt.rounded-4.overflow-hidden(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/14.png", alt="Imagen de acompañamiento")
+              img(src="@/assets/curso/tema3/14.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center #[em Listening]
             p.mb-0 Esta es una alternativa para conocer qué se está diciendo de la marca o empresa en tiempo real, en otras palabras, “estar en la jugada”, para ello existen distintas herramientas que permiten arrojar información importante con respecto a aquellos que los usuarios están comentando de la marca.
@@ -159,7 +159,7 @@
         .crd_hover_txt.rounded-4.overflow-hidden(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/15.png", alt="Imagen de acompañamiento")
+              img(src="@/assets/curso/tema3/15.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center #[em Testing]
             p.mb-0 Esto permite identificar distintas versiones de lo que se está testeando para probar su rendimiento y se debe tener muy claro el propósito con que se lleva a cabo el testeo. Para ello se debe elegir una métrica que esté enfocada al objetivo a alcanzar.
