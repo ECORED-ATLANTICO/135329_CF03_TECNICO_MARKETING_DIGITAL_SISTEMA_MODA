@@ -143,7 +143,7 @@
             figure
               img(src="@/assets/curso/tema3/13.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center Cuestionarios
+            h4.mb-sm-2.mb-md-3.mb-lg-3.text-center Cuestionarios
             p.mb-0 Esta herramienta permite ir más allá del simple análisis de datos, conociendo qué sucede con los usuarios, al responder preguntas enfocadas a lo que se desea entender.
 
       .col-xl-4.col-sm-8.col-lg-6.col-11.mb-4.mb-xl-0
@@ -152,7 +152,7 @@
             figure
               img(src="@/assets/curso/tema3/14.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center #[em Listening]
+            h4.mb-sm-2.mb-md-3.mb-lg-3.text-center #[em Listening]
             p.mb-0 Esta es una alternativa para conocer qué se está diciendo de la marca o empresa en tiempo real, en otras palabras, “estar en la jugada”, para ello existen distintas herramientas que permiten arrojar información importante con respecto a aquellos que los usuarios están comentando de la marca.
 
       .col-xl-4.col-sm-8.col-lg-6.col-11.mb-4.mb-xl-0
@@ -161,7 +161,7 @@
             figure
               img(src="@/assets/curso/tema3/15.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center #[em Testing]
+            h4.mb-sm-2.mb-md-3.mb-lg-3.text-center #[em Testing]
             p.mb-0 Esto permite identificar distintas versiones de lo que se está testeando para probar su rendimiento y se debe tener muy claro el propósito con que se lleva a cabo el testeo. Para ello se debe elegir una métrica que esté enfocada al objetivo a alcanzar.
 
     Separador
